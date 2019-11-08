@@ -3,8 +3,8 @@
 # Test Install Ros
 
 echo ""
-echo "[Note] Target OS version  >>> Ubuntu 16.04.x (xenial) or Linux Mint 18.x"
-echo "[Note] Target ROS version >>> ROS Kinetic Kame"
+echo "[Note] Target OS version  >>> Ubuntu 18.x"
+echo "[Note] Target ROS version >>> ROS Melodic Morenia"
 echo "[Note] Catkin workspace   >>> $HOME/catkin_ws"
 echo ""
 echo "PRESS [ENTER] TO CONTINUE THE INSTALLATION"
@@ -12,8 +12,8 @@ echo "IF YOU WANT TO CANCEL, PRESS [CTRL] + [C]"
 read
 
 echo "[Set the target OS, ROS version and name of catkin workspace]"
-name_os_version=${name_os_version:="xenial"}
-name_ros_version=${name_ros_version:="kinetic"}
+name_os_version=${name_os_version:="bionic"}
+name_ros_version=${name_ros_version:="melodic"}
 name_catkin_workspace=${name_catkin_workspace:="catkin_ws"}
 
 echo "[Update the package lists and upgrade them]"
